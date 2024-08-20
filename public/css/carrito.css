@@ -1,0 +1,37 @@
+*{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+.nav__logo{
+    text-decoration: none;
+}
+
+.nav__link{
+    text-decoration: none;
+}
+
+.carrito-contenido{
+    display: flex;
+    padding: 5%;
+    padding-top: 0;
+}
+
+.carrito-info{
+    margin-left: 5%;
+}
+
+.carrito-pagar{
+    display: flex;
+    align-items: initial;
+    justify-content: space-between;
+}
+
+.btn-comprar{
+    border: none;
+    border-radius: 4vh;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 3%;
+}
